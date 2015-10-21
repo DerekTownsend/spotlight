@@ -1,14 +1,5 @@
-
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
-
-.mm{
-    font-family: 'Pacifico', cursive !important;
-    z-index:2!important;
-    position:relative;
-}
-
 body{
- background:url('/pics/body_bottom.jpg') cover bottom no-repeat;
+ background:url('/pics/body_bottom.jpg') cover bottom no-repeat; 
 }
 header{
   background-color:gray;
@@ -16,9 +7,7 @@ header{
 nav{
   background-color:#ffc601 !important;
   color:#191919;
-  margin-top:-2px;
-  z-index:0 !important;
-  position:relative;
+  margin-top:-4px;
 }
 
 .header-img{
@@ -52,6 +41,9 @@ text-align: center;
     max-height:400px !important;
 }
 
-.opening{
-    font-size:20px;
+.link:hover,
+#mem:hover{
+    border-width:1px;
+    border-color:black;
+    background:no-repeat;
 }
